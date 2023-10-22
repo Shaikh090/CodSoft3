@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+body
+{
+    background: #D3D3D3;
+}
+
+.calculator 
+{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+}
+
+.outer
+{
+    background: #fff;
+    border-radius: 30px;
+    padding: 70px;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -8px rgba(0,0,0,0.75);
+}
+
+.section
+{
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+    padding: 500px;
+}
+
+#display 
+{
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@media (max-width:900px)
+
+{
+
+    .calculator
+    {
+       width: 180px; 
+      
+    }
+
+    #display 
+    {
+       width: 70%;
+    }
+
+    button
+    {
+       padding: 5px;
+       font-size: 20px;
+    }        
+       
+        
+}
